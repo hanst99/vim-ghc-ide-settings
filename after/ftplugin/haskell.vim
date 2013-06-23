@@ -1,6 +1,8 @@
-hi hdevtoolsType ctermbg=green guibg=green
-let g:hdevtools_type_highlight = 'hdevtoolsType'
-nnoremap <buffer> <F2> :HdevtoolsClear<CR>
-nnoremap <buffer> <A-t> :HdevtoolsType<CR>
-nnoremap <buffer> <A-i> :HdevtoolsInfo<CR>
+hi ghcModType ctermbg=green guibg=green
+let &l:ghcmod_type_highlight = 'ghcModType'
+nnoremap <buffer> <F2> :GhcModTypeClear<CR>
+nnoremap <buffer> <A-t> :GhcModType<CR>
+nnoremap <buffer> <A-i> :GhcModInfo<CR>
 setlocal omnifunc=necoghc#omnifunc
+setlocal shiftwidth=2
+setlocal tabstop=2
