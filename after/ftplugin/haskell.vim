@@ -1,5 +1,5 @@
 hi ghcModType ctermbg=green guibg=green
-let &l:ghcmod_type_highlight = 'ghcModType'
+let ghcmod_type_highlight = 'ghcModType'
 nnoremap <buffer> <F2> :GhcModTypeClear<CR>
 nnoremap <buffer> <A-t> :GhcModType<CR>
 nnoremap <buffer> <A-i> :GhcModInfo<CR>
